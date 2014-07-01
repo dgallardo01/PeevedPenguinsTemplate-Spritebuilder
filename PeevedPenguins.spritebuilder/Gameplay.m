@@ -13,6 +13,7 @@
     CCNode *_contentNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
+    CCNode *_pullbackNode;
 }
 
 - (void)didLoadFromCCB {
@@ -24,6 +25,9 @@
     
     //visualize pgysics bodies and joints
     _physicsNode.debugDraw = YES;
+    
+    //nothing shall collide with our invisible nodes
+    _pullbackNode.physicsBody.collisionMask = @[];
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
