@@ -27,8 +27,8 @@
     CCScene *level = [CCBReader loadAsScene:@"levels/Level1"];
     [_levelNode addChild:level];
     
-    //visualize pgysics bodies and joints
-    _physicsNode.debugDraw = YES;
+//    //visualize pgysics bodies and joints
+//    _physicsNode.debugDraw = YES;
     
     //nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
