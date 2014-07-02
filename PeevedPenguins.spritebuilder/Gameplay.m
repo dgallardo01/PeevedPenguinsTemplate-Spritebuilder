@@ -33,6 +33,10 @@
     //nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
+    
+    //delegate
+    _physicsNode.collisionDelegate = self;
+    
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
