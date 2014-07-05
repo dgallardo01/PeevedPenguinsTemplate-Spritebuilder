@@ -15,4 +15,9 @@
     [self performSelector:@selector(startBlinkAndJump) withObject:nil afterDelay:delay];
 }
 
+- (void)startBlinkAndJump{
+    CCAnimationManager *animationManager = self.animationManager;
+    [animationManager runAnimationsForSequenceNamed@"BlinkAndJump"];
+}
+
 @end
