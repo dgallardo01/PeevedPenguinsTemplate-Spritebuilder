@@ -29,7 +29,7 @@
     [_levelNode addChild:level];
     
     //visualize pgysics bodies and joints
-    _physicsNode.debugDraw = YES;
+//    _physicsNode.debugDraw = YES;
     
     //nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
