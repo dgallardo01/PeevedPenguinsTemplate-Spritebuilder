@@ -2444,9 +2444,9 @@
 			<key>length</key>
 			<real>4</real>
 			<key>name</key>
-			<string>BlinkeAndJump</string>
+			<string>BlinkAndJump</string>
 			<key>offset</key>
-			<real>1.6328125</real>
+			<real>0.0</real>
 			<key>position</key>
 			<real>4</real>
 			<key>resolution</key>
