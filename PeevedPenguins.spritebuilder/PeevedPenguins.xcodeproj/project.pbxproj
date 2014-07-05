@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A8FE1D1967884500FAA419 /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A8FE1C1967884500FAA419 /* WaitingPenguin.m */; };
+		30A8FE21196789B000FAA419 /* WaitingPenguins.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A8FE20196789B000FAA419 /* WaitingPenguins.m */; };
 		30FAF62A195DC59900418A54 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FAF629195DC59900418A54 /* Penguin.m */; };
 		30FAF62E195DC59F00418A54 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FAF62D195DC59E00418A54 /* Seal.m */; };
 		30FAF631195DDBB900418A54 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FAF630195DDBB900418A54 /* Gameplay.m */; };
@@ -60,8 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30A8FE1B1967884500FAA419 /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingPenguin.h; sourceTree = "<group>"; };
-		30A8FE1C1967884500FAA419 /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingPenguin.m; sourceTree = "<group>"; };
+		30A8FE1F196789B000FAA419 /* WaitingPenguins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingPenguins.h; sourceTree = "<group>"; };
+		30A8FE20196789B000FAA419 /* WaitingPenguins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingPenguins.m; sourceTree = "<group>"; };
 		30FAF628195DC59900418A54 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
 		30FAF629195DC59900418A54 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		30FAF62C195DC59E00418A54 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
@@ -137,6 +137,8 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				30A8FE1F196789B000FAA419 /* WaitingPenguins.h */,
+				30A8FE20196789B000FAA419 /* WaitingPenguins.m */,
 				30FAF628195DC59900418A54 /* Penguin.h */,
 				30FAF629195DC59900418A54 /* Penguin.m */,
 				30FAF62C195DC59E00418A54 /* Seal.h */,
@@ -147,8 +149,6 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				30FAF62F195DDBB900418A54 /* Gameplay.h */,
 				30FAF630195DDBB900418A54 /* Gameplay.m */,
-				30A8FE1B1967884500FAA419 /* WaitingPenguin.h */,
-				30A8FE1C1967884500FAA419 /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -360,9 +360,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A8FE21196789B000FAA419 /* WaitingPenguins.m in Sources */,
 				30FAF62E195DC59F00418A54 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
-				30A8FE1D1967884500FAA419 /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				30FAF62A195DC59900418A54 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,

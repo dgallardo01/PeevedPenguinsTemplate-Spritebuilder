@@ -1,5 +1,5 @@
 //
-//  WaitingPenguin.h
+//  WaitingPenguins.h
 //  PeevedPenguins
 //
 //  Created by Danny on 7/4/14.
@@ -8,6 +8,6 @@
 
 #import "CCSprite.h"
 
-@interface WaitingPenguin : CCSprite
+@interface WaitingPenguins : CCSprite
 
 @end
