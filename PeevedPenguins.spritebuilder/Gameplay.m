@@ -37,7 +37,6 @@
     
     //delegate
     _physicsNode.collisionDelegate = self;
-    
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
@@ -164,7 +163,5 @@
     //finally, remove the destroyed seal
     [seal removeFromParent];
 }
-
-
 
 @end
